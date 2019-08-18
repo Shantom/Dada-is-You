@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1253676298709360}
+  m_IsPrefabAsset: 1
+--- !u!1 &1253676298709360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4938771972893502}
+  - component: {fileID: 114586354945969652}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4938771972893502
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1253676298709360}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114586354945969652
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1253676298709360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41264c3eca74c14f844f76a4ffb7d2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playersTurn: 1
+  columns: 17
+  rows: 9
+  Border: {fileID: 1336741778424938, guid: 32e8865e37fd6a9409163ab5a127e608, type: 2}
+  Floor: {fileID: 1880996820036044, guid: 202213ae917a90440af75617dda1e831, type: 2}
+  Death: {fileID: 1008883396089898, guid: 721775a44ab29b04ebeb7a16fc6e87f9, type: 2}
+  Flash: {fileID: 1576803072872888, guid: eef439ac1116879448b22f0d28f802d0, type: 2}
+  Win: {fileID: 1477983724064324, guid: 6d55f40b14b15944180b43dc20a08e5d, type: 2}
+  PauseMenu: {fileID: 1460552664391938, guid: 102ed4714d09fb240ae71054ce8a0f6f, type: 2}
+  level: 1
+  levelCount: 8

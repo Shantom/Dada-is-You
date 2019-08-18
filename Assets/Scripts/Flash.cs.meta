@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 29300564e4ec2a249bf2f91bf45a3b79
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - FlashAnim: {fileID: 1576803072872888, guid: eef439ac1116879448b22f0d28f802d0,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,7 @@
+.vs/
+*.csproj
+Build/
+Library/
+obj/
+Packages/
+*.rar
